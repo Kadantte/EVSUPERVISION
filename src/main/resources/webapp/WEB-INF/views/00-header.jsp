@@ -69,8 +69,7 @@
                     </li>
                     <li><a href="${ctxPath}/manager/settings">Paramètrages</a></li>
                     <li><a href="${ctxPath}/manager/log">LOG</a></li>
-                    <li><a href="${ctxPath}/manager/about">Se déconnecter</a></li>
-                    <li><a href="${ctxPath}/manager/signout">SIGN OUT</a></li>
+                    <li><a href="${ctxPath}/manager/signout">Se déconnecter</a></li>
                 </ul>
             </div>
         </div>
