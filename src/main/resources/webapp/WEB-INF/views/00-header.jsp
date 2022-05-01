@@ -67,7 +67,7 @@
                             <li><a href="${ctxPath}/manager/operations/tasks">tâches</a></li>
                         </ul>
                     </li>
-                    <li><a href="${ctxPath}/manager/settings">Paramètrages</a></li>
+                    <!-- <li><a href="${ctxPath}/manager/settings">Paramètrages</a></li> -->
                     <li><a href="${ctxPath}/manager/log">LOG</a></li>
                     <li><a href="${ctxPath}/manager/signout">Se déconnecter</a></li>
                 </ul>

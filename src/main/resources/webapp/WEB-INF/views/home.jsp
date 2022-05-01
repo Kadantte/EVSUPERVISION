@@ -30,7 +30,7 @@
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-primary mb-3 card-s">
 			<a href="${ctxPath}/manager/chargepoints" class="anchor-deck"> <span
-				class="anchor-p"><i>Number of Charge Points</i></span><br> <span
+				class="anchor-p"><i>Nombre de points de charge</i></span><br> <span
 				class="span-numeric">${stats.numChargeBoxes}</span>
 			</a>
 		</div>
@@ -38,14 +38,14 @@
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-success mb-3 card-s">
 			<a href="${ctxPath}/manager/ocppTags" class="anchor-deck"> <span
-				class="anchor-p"><i>Number of OCPP Tags</i></span> <br> <span
+				class="anchor-p"><i>Nombre de Tags OCPP </i></span> <br> <span
 				class="span-numeric">${stats.numOcppTags}</span>
 			</a>
 		</div>
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-secondary mb-3 card-s">
 			<a href="${ctxPath}/manager/users" class="anchor-deck"> <span
-				class="anchor-p"><i>Number of Users</i></span><br> <span
+				class="anchor-p"><i>Nombre  d'utilisateurs</i></span><br> <span
 				class="span-numeric">${stats.numUsers}</span>
 			</a>
 		</div>
@@ -53,7 +53,7 @@
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-info mb-3 card-s">
 			<a href="${ctxPath}/manager/reservations" class="anchor-deck"> <span
-				class="anchor-p"><i>Number of Active Reservations</i></span><br>
+				class="anchor-p"><i>Nombre de demandes actives</i></span><br>
 				<span class="span-numeric">${stats.numReservations}</span>
 			</a>
 		</div>
@@ -63,7 +63,7 @@
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-info mb-3 card-s">
 			<a href="${ctxPath}/manager/transactions" class="anchor-deck"> <span
-				class="anchor-p"><i>Number of Active Transactions</i></span><br>
+				class="anchor-p"><i>Nombre de transactions actives</i></span><br>
 				<span class="span-numeric">${stats.numTransactions}</span>
 			</a>
 		</div>
@@ -71,8 +71,7 @@
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-secondary mb-3 card-s">
 			<a href="${ctxPath}/manager/home/ocppJsonStatus" class="anchor-deck">
-				<span class="anchor-p"><i>Number of Connected JSON Charge
-						Points</i></span><br> <span style="line-height: 25px;"> <span>
+				<span class="anchor-p"><i>Nombre de points de charge en ligne</i></span><br> <span style="line-height: 25px;"> <span>
 						OCPP 1.2: ${stats.numOcpp12JChargeBoxes}</span><br> <span>
 						OCPP 1.5: ${stats.numOcpp15JChargeBoxes}</span><br> <span>
 						OCPP 1.6: ${stats.numOcpp16JChargeBoxes}</span><br>
@@ -83,7 +82,7 @@
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-success mb-3 card-s">
 			<a href="${ctxPath}/manager/chargepoints" class="anchor-deck"> <span
-				class="anchor-p"><i>Received Heartbeats</i></span><br> <span
+				class="anchor-p"><i>Raccordement</i></span><br> <span
 				style="line-height: 25px;"> <span> Today:
 						${stats.heartbeatToday}</span><br> <span> Yesterday:
 						${stats.heartbeatYesterday}</span><br> <span> Earlier:
@@ -95,7 +94,7 @@
 		<div
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-primary mb-3 card-s">
 			<a href="${ctxPath}/manager/home/connectorStatus" class="anchor-deck">
-				<span class="anchor-p"><i>Connector Status</i></span><br> <span
+				<span class="anchor-p"><i>Statut du connecteur</i></span><br> <span
 				style="line-height: 25px;"> <c:forEach
 						items="${stats.statusCountMap}" var="it">
 						<span>${it.key} : ${it.value}</span>
