@@ -35,7 +35,7 @@
     <script type="text/javascript" src="${ctxPath}/static/js/jquery-ui-timepicker-addon.min.js" ></script>
     <script type="text/javascript" src="${ctxPath}/static/js/script.js" ></script>
     <script type="text/javascript" src="${ctxPath}/static/js/stupidtable.min.js" ></script>
-    <link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/style.min.css">
     <title>EU-SuperVision</title>
 </head>
 <body>

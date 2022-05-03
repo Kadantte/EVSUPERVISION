@@ -28,7 +28,7 @@
 <head>
 	<link rel="icon" href="${ctxPath}/static/images/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" href="${ctxPath}/static/images/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/style.min.css">
 	<title>EV-Supervision</title>
 </head>
 <body>
