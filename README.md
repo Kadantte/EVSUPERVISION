@@ -1,4 +1,4 @@
-![SteVe](src/main/resources/webapp/static/images/logo.png) 
+![SteVe](src/main/resources/webapp/static/images/header.png) 
 
 [![build and run tests](https://github.com/RWTH-i5-IDSG/steve/actions/workflows/main.yml/badge.svg)](https://github.com/RWTH-i5-IDSG/steve/actions/workflows/main.yml)
 
