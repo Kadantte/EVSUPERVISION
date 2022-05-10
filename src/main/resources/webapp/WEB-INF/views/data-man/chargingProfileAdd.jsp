@@ -27,7 +27,7 @@
 </script>
 <spring:hasBindErrors name="form">
     <div class="error">
-        Error while trying to add a charging profile:
+        Erreur lors de la tentative d&apos;ajout d&apos;un profil de charge:
         <ul>
             <c:forEach var="error" items="${errors.allErrors}">
                 <li>${error.defaultMessage}</li>
@@ -37,11 +37,11 @@
 </spring:hasBindErrors>
 <div class="content">
     <div>
-        <section><span>Add Charging Profile</span></section>
+        <section><span>Ajouter un Profil de Charge</span></section>
         <form:form action="${ctxPath}/manager/chargingProfiles/add" modelAttribute="form">
 
             <c:set var="submitButtonName" value="add"/>
-            <c:set var="submitButtonValue" value="Add"/>
+            <c:set var="submitButtonValue" value="Ajouter"/>
             <%@ include file="00-charging-profile.jsp" %>
 
         </form:form>
