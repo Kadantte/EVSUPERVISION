@@ -25,7 +25,7 @@
     });
 </script>
 <div class="content"><div>
-    <section><span>Vue d’ensemble de l’utilisateur</span></section>
+    <section><span>Vue d&apos;ensemble de l&apos;utilisateur</span></section>
     <form:form action="${ctxPath}/manager/users/query" method="get" modelAttribute="params">
         <table class="userInput">
             <tr>
@@ -41,7 +41,7 @@
                 <td><form:input path="name"/></td>
             </tr>
             <tr>
-                <td>Adresse électronique:</td>
+                <td>Adresse &#233;lectronique:</td>
                 <td><form:input path="email"/></td>
             </tr>
             <tr>
