@@ -63,7 +63,7 @@
                 <th data-sort="string">Adresse &#233;lectronique</th>
                 <th>
                     <form:form action="${ctxPath}/manager/users/add" method="get">
-                        <input type="submit" class="blueSubmit" value="Add New">
+                        <input type="submit" class="blueSubmit" value="Ajouter Nouveau">
                     </form:form>
                 </th>
             </tr>
@@ -81,7 +81,7 @@
                 <td>${cr.email}</td>
                 <td>
                     <form:form action="${ctxPath}/manager/users/delete/${cr.userPk}">
-                        <input type="submit" class="redSubmit" value="Delete">
+                        <input type="submit" class="redSubmit" value="Supprimer">
                     </form:form>
                 </td>
             </tr>

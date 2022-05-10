@@ -131,7 +131,7 @@
                 <th data-sort="string">Blocked?</th>
                 <th>
                     <form:form action="${ctxPath}/manager/ocppTags/add" method="get">
-                        <input type="submit" class="blueSubmit" value="Add New"/>
+                        <input type="submit" class="blueSubmit" value="Ajouter Nouveau"/>
                     </form:form>
                 </th>
             </tr>
@@ -150,7 +150,7 @@
                     <td>${item.blocked}</td>
                     <td>
                         <form:form action="${ctxPath}/manager/ocppTags/delete/${item.ocppTagPk}">
-                            <input type="submit" class="redSubmit" value="Delete">
+                            <input type="submit" class="redSubmit" value="Supprimer">
                         </form:form>
                     </td>
                 </tr>

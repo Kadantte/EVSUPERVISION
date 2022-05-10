@@ -116,7 +116,7 @@
                 <th data-sort="date">Last Heartbeat</th>
                 <th>
                     <form:form action="${ctxPath}/manager/chargepoints/add" method="get">
-                        <input type="submit" class="blueSubmit" value="Add New">
+                        <input type="submit" class="blueSubmit" value="Ajouter Nouveau">
                     </form:form>
                 </th>
             </tr>
@@ -129,7 +129,7 @@
                     <td data-sort-value="${cp.lastHeartbeatTimestampDT.millis}">${cp.lastHeartbeatTimestamp}</td>
                     <td>
                         <form:form action="${ctxPath}/manager/chargepoints/delete/${cp.chargeBoxPk}">
-                            <input type="submit" class="redSubmit" value="Delete">
+                            <input type="submit" class="redSubmit" value="Supprimer">
                         </form:form>
                     </td>
                 </tr>

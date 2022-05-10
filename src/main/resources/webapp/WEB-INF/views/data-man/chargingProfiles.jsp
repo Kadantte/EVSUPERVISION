@@ -90,7 +90,7 @@
                 <th data-sort="date">Valid To</th>
                 <th>
                     <form:form action="${ctxPath}/manager/chargingProfiles/add" method="get">
-                        <input type="submit" class="blueSubmit" value="Add New">
+                        <input type="submit" class="blueSubmit" value="Ajouter Nouveau">
                     </form:form>
                 </th>
             </tr>
@@ -108,7 +108,7 @@
                     <td data-sort-value="${cp.validTo.millis}">${cp.validTo}</td>
                     <td>
                         <form:form action="${ctxPath}/manager/chargingProfiles/delete/${cp.chargingProfilePk}">
-                            <input type="submit" class="redSubmit" value="Delete">
+                            <input type="submit" class="redSubmit" value="Supprimer">
                         </form:form>
                     </td>
                 </tr>

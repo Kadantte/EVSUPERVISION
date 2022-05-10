@@ -79,7 +79,7 @@
             <td><form:input path="schedulePeriodMap[${schedulePeriodMap.key}].startPeriodInSeconds"/></td>
             <td><form:input path="schedulePeriodMap[${schedulePeriodMap.key}].powerLimit"/></td>
             <td><form:input path="schedulePeriodMap[${schedulePeriodMap.key}].numberPhases" placeholder="if empty, 3 will be assumed"/></td>
-            <td><input type="button" class="removeRow" value="Delete"></td>
+            <td><input type="button" class="removeRow" value="Supprimer"></td>
         </tr>
     </c:forEach>
     </tbody>
