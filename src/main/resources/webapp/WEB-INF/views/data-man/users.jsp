@@ -59,8 +59,8 @@
                 <th data-sort="int">ID Utilisateur</th>
                 <th data-sort="string">ID Tag Ocpp</th>
                 <th data-sort="string">Nom</th>
-                <th data-sort="string">Téléphone</th>
-                <th data-sort="string">Adresse électronique</th>
+                <th data-sort="string">T&#233;l&#233;phone</th>
+                <th data-sort="string">Adresse &#233;lectronique</th>
                 <th>
                     <form:form action="${ctxPath}/manager/users/add" method="get">
                         <input type="submit" class="blueSubmit" value="Add New">
