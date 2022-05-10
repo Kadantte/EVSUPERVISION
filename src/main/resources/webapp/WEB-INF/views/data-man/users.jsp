@@ -25,23 +25,23 @@
     });
 </script>
 <div class="content"><div>
-    <section><span>User Overview</span></section>
+    <section><span>Vue d’ensemble de l’utilisateur</span></section>
     <form:form action="${ctxPath}/manager/users/query" method="get" modelAttribute="params">
         <table class="userInput">
             <tr>
-                <td>User ID:</td>
+                <td>ID Utilisateur:</td>
                 <td><form:input path="userPk"/></td>
             </tr>
             <tr>
-                <td>Ocpp ID Tag:</td>
+                <td>ID Tag Ocpp:</td>
                 <td><form:input path="ocppIdTag"/></td>
             </tr>
             <tr>
-                <td>Name:</td>
+                <td>Nom:</td>
                 <td><form:input path="name"/></td>
             </tr>
             <tr>
-                <td>E-Mail:</td>
+                <td>Adresse électronique:</td>
                 <td><form:input path="email"/></td>
             </tr>
             <tr>
@@ -56,11 +56,11 @@
     <table class="res action">
         <thead>
             <tr>
-                <th data-sort="int">User ID</th>
-                <th data-sort="string">Ocpp ID Tag</th>
-                <th data-sort="string">Name</th>
-                <th data-sort="string">Phone</th>
-                <th data-sort="string">E-Mail</th>
+                <th data-sort="int">ID Utilisateur</th>
+                <th data-sort="string">ID Tag Ocpp</th>
+                <th data-sort="string">Nom</th>
+                <th data-sort="string">Téléphone</th>
+                <th data-sort="string">Adresse électronique</th>
                 <th>
                     <form:form action="${ctxPath}/manager/users/add" method="get">
                         <input type="submit" class="blueSubmit" value="Add New">
