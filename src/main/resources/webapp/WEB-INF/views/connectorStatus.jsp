@@ -54,7 +54,7 @@ Connector Status
 		<tr>
 			<td></td>
 			<td id="add_space">
-				<input type="submit" value="Get">
+				<input type="submit" value="Afficher">
 			</td>
 		</tr>
 	</table>
