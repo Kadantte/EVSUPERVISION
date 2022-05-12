@@ -29,7 +29,7 @@
 	<tr><td></td>
 		<td id="add_space">
 			<input type="submit" name="${submitButtonName}" value="${submitButtonValue}">
-			<input type="submit" name="backToOverview" value="Back to Overview">
+			<input type="submit" name="backToOverview" value="Retour à l'aperçu">
 		</td></tr>
 	</tbody>
 </table>

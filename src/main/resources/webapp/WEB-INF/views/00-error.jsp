@@ -20,13 +20,13 @@
 --%>
 <%@ include file="00-header.jsp" %>
 <div class="error">
-    <h3>Error:</h3>
+    <h3>Erreur:</h3>
     <p>${exception}</p>
     <c:if test="${not empty exception.cause}">
-        <h3>Reason:</h3>
+        <h3>Raison:</h3>
         <p>${exception.cause}</p>
     </c:if>
     <br>
-    <p>You can <a href="javascript:window.history.back()">go back</a> or, for more detail, <a href="${ctxPath}/manager/log">view the log</a></p>
+    <p>Vous pouvez <a href="javascript:window.history.back()">revenir en arrière</a> ou, pour plus de d&eacute;tails, <a href="${ctxPath}/manager/log">Voir le journal</a></p>
 </div>
 <%@ include file="00-footer.jsp" %>

@@ -21,7 +21,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <table class="userInput">
 	<tr>
-		<td style="vertical-align:top">Select one:</td>
+		<td style="vertical-align:top">s&eacute;lectionner un:</td>
 		<td>
 			<form:select path="chargePointSelectList" size="5" multiple="false">
 				<c:forEach items="${cpList}" var="cp">
