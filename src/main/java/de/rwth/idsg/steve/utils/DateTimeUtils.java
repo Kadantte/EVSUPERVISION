@@ -80,15 +80,15 @@ public final class DateTimeUtils {
 
         // Is it today?
         if (inputAtMidnight.equals(todayAtMidnight)) {
-            return "Today at " + TIME_FORMATTER.print(dt);
+            return "Aujourd'hui à " + TIME_FORMATTER.print(dt);
 
         // Is it yesterday?
         } else if (inputAtMidnight.equals(todayAtMidnight.minusDays(1))) {
-            return "Yesterday at " + TIME_FORMATTER.print(dt);
+            return "Hier à " + TIME_FORMATTER.print(dt);
 
         // Is it tomorrow?
         } else if (inputAtMidnight.equals(todayAtMidnight.plusDays(1))) {
-            return "Tomorrow at " + TIME_FORMATTER.print(dt);
+            return "Demain à " + TIME_FORMATTER.print(dt);
 
         // So long ago OR in the future...
         } else {

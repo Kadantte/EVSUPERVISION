@@ -45,7 +45,7 @@
             <td>Charging Profile Purpose:</td>
             <td>
                 <form:select path="chargingProfilePurpose">
-                    <option value="" selected>-- Empty --</option>
+                    <option value="" selected>-- Vide --</option>
                     <form:options items="${chargingProfilePurpose}"/>
                 </form:select>
             </td>

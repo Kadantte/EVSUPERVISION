@@ -31,7 +31,7 @@
         <tr><td>Charging Rate Unit:</td>
             <td>
                 <form:select path="chargingRateUnit">
-                    <option value="" selected>-- Empty --</option>
+                    <option value="" selected>-- Vide --</option>
                     <form:options items="${chargingRateUnit}"/>
                 </form:select>
             </td>

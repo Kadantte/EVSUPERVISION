@@ -84,12 +84,12 @@ public class TransactionQueryForm extends QueryForm {
 
     @RequiredArgsConstructor
     public enum QueryPeriodType {
-        ALL("All", -1),
-        TODAY("Today", -1),
-        LAST_10("Last 10 days", 10),
-        LAST_30("Last 30 days", 30),
-        LAST_90("Last 90 days", 90),
-        FROM_TO("From/To", -1);
+        ALL("Tout", -1),
+        TODAY("Aujourd'hui", -1),
+        LAST_10("10 derniers jours", 10),
+        LAST_30("30 derniers jours", 30),
+        LAST_90("90 derniers jours", 90),
+        FROM_TO("De à", -1);
 
         @Getter private final String value;
         private final int interval;

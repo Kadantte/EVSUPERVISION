@@ -35,7 +35,7 @@ import static de.rwth.idsg.steve.utils.CountryCodesProvider.getCountryCodes;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class ControllerHelper {
 
-    public static final String EMPTY_OPTION = "-- Empty --";
+    public static final String EMPTY_OPTION = "-- Vide --";
 
     public static final Map<String, String> COUNTRY_DROPDOWN = getCountryCodes();
 

@@ -45,7 +45,7 @@
                 <tr>
                     <td>Profile Purpose:</td>
                     <td><form:select path="profilePurpose">
-                        <option value="" selected>-- Empty --</option>
+                        <option value="" selected>-- Vide --</option>
                         <form:options items="${profilePurpose}"/>
                     </form:select>
                     </td>
@@ -53,7 +53,7 @@
                 <tr>
                     <td>Profile Kind:</td>
                     <td><form:select path="profileKind">
-                        <option value="" selected>-- Empty --</option>
+                        <option value="" selected>-- Vide --</option>
                         <form:options items="${profileKind}"/>
                     </form:select>
                     </td>
@@ -61,7 +61,7 @@
                 <tr>
                     <td>Recurrency Kind:</td>
                     <td><form:select path="recurrencyKind">
-                        <option value="" selected>-- Empty --</option>
+                        <option value="" selected>-- Vide --</option>
                         <form:options items="${recurrencyKind}"/>
                     </form:select>
                     </td>
