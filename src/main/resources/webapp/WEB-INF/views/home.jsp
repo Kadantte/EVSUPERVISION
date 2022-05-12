@@ -83,9 +83,9 @@
 			class="col-lg-4 col-md-12 col-sm-12 col-xs-12 card text-white bg-success mb-3 card-s">
 			<a href="${ctxPath}/manager/chargepoints" class="anchor-deck"> <span
 				class="anchor-p"><i>Raccordement</i></span><br> <span
-				style="line-height: 25px;"> <span> Today:
-						${stats.heartbeatToday}</span><br> <span> Yesterday:
-						${stats.heartbeatYesterday}</span><br> <span> Earlier:
+				style="line-height: 25px;"> <span> Aujourd'hui:
+						${stats.heartbeatToday}</span><br> <span> Hier:
+						${stats.heartbeatYesterday}</span><br> <span> Plus tôt:
 						${stats.heartbeatEarlier}</span><br>
 			</span>
 			</a>
