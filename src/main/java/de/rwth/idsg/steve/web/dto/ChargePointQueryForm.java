@@ -58,9 +58,9 @@ public class ChargePointQueryForm {
     @RequiredArgsConstructor
     public enum QueryPeriodType {
         ALL("All"),
-        TODAY("Today"),
-        YESTERDAY("Yesterday"),
-        EARLIER("Earlier");
+        TODAY("Aujourd'hui"),
+        YESTERDAY("Hier"),
+        EARLIER("Plus tôt");
 
         @Getter private final String value;
 
