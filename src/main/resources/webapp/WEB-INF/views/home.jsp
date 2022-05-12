@@ -85,7 +85,7 @@
 				class="anchor-p"><i>Raccordement</i></span><br> <span
 				style="line-height: 25px;"> <span> Aujourd'hui:
 						${stats.heartbeatToday}</span><br> <span> Hier:
-						${stats.heartbeatYesterday}</span><br> <span> Plus tôt:
+						${stats.heartbeatYesterday}</span><br> <span> Plus t&ocirc;t:
 						${stats.heartbeatEarlier}</span><br>
 			</span>
 			</a>

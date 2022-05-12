@@ -30,18 +30,18 @@
 <div class="content">
     <div>
     <section><span id="unknown" style="cursor: pointer">
-    Unknown Charge Points
+        Bornes de recharge inconnues
     <a class="tooltip" href="#"><img src="${ctxPath}/static/images/info.png" style="vertical-align:middle">
-        <span>A list of charge points that attempted to connect and send a boot notification but were not present in database.</span>
+        <span>Une liste des bornes de recharge qui ont tent&eacute; de se connecter et d&apos;envoyer une notification de d&eacute;marrage mais qui n&apos;&eacute;taient pas pr&eacute;sentes dans la base de donn&eacute;es.</span>
     </a>
     </span></section>
     <div id="unknownTable" style="display: none">
         <table class="res add-margin-bottom">
             <thead>
             <tr>
-                <th data-sort="string">ChargeBox ID</th>
-                <th data-sort="int"># of Attempts</th>
-                <th data-sort="date">Last Attempt</th>
+                <th data-sort="string">ID de la Borne de recharge</th>
+                <th data-sort="int"># de Tentatives</th>
+                <th data-sort="date">Derni&eacute;re tentative</th>
                 <th></th>
             </tr>
             </thead>
@@ -67,16 +67,16 @@
     </div>
 
     <section><span>
-    Charge Point Overview
+    Aperçu des bornes de recharge
     <a class="tooltip" href="#"><img src="${ctxPath}/static/images/info.png" style="vertical-align:middle">
-        <span>Deleting a charge point causes losing all related information including transactions, reservations, connector status and connector meter values.</span>
+        <span>La suppression d&apos;une borne de recharge entra&icirc;ne la perte de toutes les informations associ&eacute;es, y compris les transactions, les r&eacute;servations, l&apos;&eacute;tat du connecteur et les valeurs des compteurs du connecteur.</span>
     </a>
     </span></section>
     <div id="overview">
         <form:form action="${ctxPath}/manager/chargepoints/query" method="get" modelAttribute="params">
             <table class="userInput">
                 <tr>
-                    <td>ChargeBox ID:</td>
+                    <td>ID de la Borne de recharge:</td>
                     <td><form:input path="chargeBoxId"/></td>
                 </tr>
                 <tr>
@@ -84,15 +84,15 @@
                     <td><form:input path="description"/></td>
                 </tr>
                 <tr>
-                    <td>Ocpp Version:</td>
+                    <td>Version Ocpp:</td>
                     <td><form:select path="ocppVersion">
-                        <option value="" selected>All</option>
+                        <option value="" selected>Tout</option>
                         <form:options items="${ocppVersion}" itemLabel="value"/>
                     </form:select>
                     </td>
                 </tr>
                 <tr>
-                    <td>Heartbeat Period:</td>
+                    <td>P&eacute;riode de branchement:</td>
                     <td><form:select path="heartbeatPeriod">
                         <form:options items="${heartbeatPeriod}" itemLabel="value"/>
                     </form:select>
@@ -110,10 +110,10 @@
         <table class="res action">
             <thead>
             <tr>
-                <th data-sort="string">ChargeBox ID</th>
+                <th data-sort="string">ID de la Borne de recharge</th>
                 <th data-sort="string">Description</th>
-                <th data-sort="string">OCPP Protocol</th>
-                <th data-sort="date">Last Heartbeat</th>
+                <th data-sort="string">Protocole OCPP</th>
+                <th data-sort="date">Dernier P&eacute;riode de branchement</th>
                 <th>
                     <form:form action="${ctxPath}/manager/chargepoints/add" method="get">
                         <input type="submit" class="blueSubmit" value="Ajouter Nouveau">
