@@ -67,7 +67,7 @@
     </div>
 
     <section><span>
-    Aperçu des bornes de recharge
+    Aper&ccedil;u des bornes de recharge
     <a class="tooltip" href="#"><img src="${ctxPath}/static/images/info.png" style="vertical-align:middle">
         <span>La suppression d&apos;une borne de recharge entra&icirc;ne la perte de toutes les informations associ&eacute;es, y compris les transactions, les r&eacute;servations, l&apos;&eacute;tat du connecteur et les valeurs des compteurs du connecteur.</span>
     </a>
