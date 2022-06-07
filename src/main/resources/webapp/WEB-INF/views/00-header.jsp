@@ -36,7 +36,7 @@
     <script type="text/javascript" src="${ctxPath}/static/js/script.min.js" ></script>
     <script type="text/javascript" src="${ctxPath}/static/js/stupidtable.min.js" ></script>
     <link rel="stylesheet" type="text/css" href="${ctxPath}/static/css/style.min.css">
-    <title>EU-SuperVision</title>
+    <title>Multibornes</title>
 </head>
 <body>
 <div class="main">
